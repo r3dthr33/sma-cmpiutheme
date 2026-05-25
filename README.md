@@ -1,41 +1,27 @@
-# CMINTIFADA
+# CMPIU
 
-CMINTIFADA is a custom StepMania AMX theme in early development. It is built around the standard StepMania theme folder layout and currently falls back to `!CMPIU`.
+CMPIU is the shared StepMania AMX fallback theme for this theme set. Other custom themes can inherit from the `!CMPIU` folder through their `FallbackTheme` setting, using it as a common base for assets, metrics, sounds, fonts, and language strings.
 
-## Current Version
-
-The visible theme version is stored in `metrics.ini` through the window title:
-
-```ini
-WindowTitle=INTIFADA v0.0.8
-```
+This repository stores the fallback theme files for the `!CMPIU` theme folder.
 
 ## Project Structure
 
 - `metrics.ini` - Main StepMania theme configuration, screen flow, and behavior map.
-- `BGAnimations/` - Screen animation assets and scripts.
-- `Fonts/` - Theme font assets.
-- `Graphics/` - Theme images and interface graphics.
-- `Languages/` - Localization files.
-- `Movies/` - Video assets.
-- `Numbers/` - Number font assets.
-- `Other/` - Miscellaneous theme files.
-- `Sounds/` - Theme audio assets.
-- `roadmap.txt` - Pending development tasks.
-- `versionlog.md` - Change history for project updates.
+- `BGAnimations/` - Shared screen animation assets and redirects.
+- `Fonts/` - Shared theme font assets.
+- `Graphics/` - Shared theme images and interface graphics.
+- `Languages/` - Shared localization files.
+- `Sounds/` - Shared theme audio assets.
+- `versionlog.md` - Change history for fallback theme updates.
 
-## Theme Defaults
+## Current Baseline
 
-- Fallback theme: `!CMPIU`
-- Target resolution: `1280x720`
-- Current version: `v0.0.8`
-
-## Development Status
-
-This theme is currently a work in progress. Recent work has focused on ScreenSelectMusic stability, mode/sort menu behavior, custom ScreenOptions/OperatorMenu presentation, command-menu presentation, dynamic style indicators, and a PIU-style modifier detector with expanded noteskin, alternate, display, and judge coverage. Planned work includes editor support, score save/display screens, transitions, intro logo animation, improved two-player command display, and a splash screen.
+- Theme folder: `!CMPIU`
+- Role: fallback/base theme for other custom themes
+- Repository branch: `main`
+- Initial version log entry: `v0.0.1`
+- Local window-title version marker: not currently defined in `metrics.ini`
 
 ## Change Tracking
 
-All meaningful project changes should be recorded in `versionlog.md`. Version changes should also update the `WindowTitle` value in `metrics.ini`.
-
-Before each commit, update this README so the GitHub-facing project description stays current with the committed state.
+Record meaningful fallback theme changes in `versionlog.md`. Changes made here can affect any theme that inherits from `!CMPIU`, so document shared behavior, asset, language, and metric updates clearly.
