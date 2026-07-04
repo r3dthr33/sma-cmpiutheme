@@ -2,6 +2,12 @@
 
 All meaningful CMPIU fallback theme changes should be recorded here when the theme is updated.
 
+## v0.0.2
+
+- Added `ScreenEvaluation try extra1.redir` and `ScreenEvaluation try extra2.redir`.
+- Redirected both Extra Stage evaluation prompts to `_silent`, suppressing those sounds for themes that inherit from CMPIU.
+- Updated `README.md` to describe the shared evaluation-sound behavior.
+
 ## v0.0.1
 
 - Initialized `versionlog.md` for the CMPIU fallback theme.

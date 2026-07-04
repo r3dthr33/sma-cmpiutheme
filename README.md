@@ -19,8 +19,12 @@ This repository stores the fallback theme files for the `!CMPIU` theme folder.
 - Theme folder: `!CMPIU`
 - Role: fallback/base theme for other custom themes
 - Repository branch: `main`
-- Initial version log entry: `v0.0.1`
+- Current documented version: `v0.0.2`
 - Local window-title version marker: not currently defined in `metrics.ini`
+
+## Shared Behavior
+
+- Extra Stage 1 and Extra Stage 2 "try extra" evaluation sounds redirect to the shared `_silent` sound.
 
 ## Change Tracking
 
