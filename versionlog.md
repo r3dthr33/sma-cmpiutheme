@@ -2,6 +2,16 @@
 
 All meaningful CMPIU fallback theme changes should be recorded here when the theme is updated.
 
+## v0.0.3
+
+- Changed the command-menu speed row to default to `P500` and added AV-style `P400` through `P700` choices before the classic X-speed options.
+- Changed `BGAOFF` to use the `static` modifier instead of `randombg`.
+- Removed forced `randombg` and `savescore` modifiers from Rush choices so they only change music rate.
+- Added `PortraitTheme` as a command-menu configuration row.
+- Added Spanish command-menu language strings and trimmed English strings to the shared command-menu entries used by CMPIU.
+- Added `ScreenAttract` back navigation to `ScreenProducer`.
+- Updated `README.md` to describe the new shared option behavior and language baseline.
+
 ## v0.0.2
 
 - Added `ScreenEvaluation try extra1.redir` and `ScreenEvaluation try extra2.redir`.
