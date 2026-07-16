@@ -2,6 +2,11 @@
 
 All meaningful CMPIU fallback theme changes should be recorded here when the theme is updated.
 
+## v0.0.4
+
+- Removed `no static` from `RushDefault`, leaving the default Rush state as `1.0xmusic` only.
+- Updated `README.md` to clarify that individual Rush rate choices apply `static` while the default Rush state does not force that display modifier.
+
 ## v0.0.3
 
 - Changed the command-menu speed row to default to `P500` and added AV-style `P400` through `P700` choices before the classic X-speed options.
