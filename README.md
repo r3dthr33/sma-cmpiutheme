@@ -19,16 +19,18 @@ This repository stores the fallback theme files for the `!CMPIU` theme folder.
 - Theme folder: `!CMPIU`
 - Role: fallback/base theme for other custom themes
 - Repository branch: `main`
-- Current documented version: `v0.0.4`
+- Current documented version: `v0.0.5`
 - Local window-title version marker: not currently defined in `metrics.ini`
 
 ## Shared Behavior
 
 - Extra Stage 1 and Extra Stage 2 "try extra" evaluation sounds redirect to the shared `_silent` sound.
-- Command menu speed options default to `P500` and provide AV-style speed choices from `P400` through `P700`, followed by classic X-speed choices.
-- The display menu uses `static` for `BGAOFF`; Rush rate choices apply `static`, while the default Rush state only sets `1.0xmusic`.
+- Command menu speed options include AV-style choices from `P400` through `P700`, classic X-speed choices from `1X` through `6X`, and a `5.5X` intermediate speed.
+- The display menu uses `static` for `BGAOFF`; Rush exposes 80% through 150% music-rate choices, with `1.0x` clearing the static display modifier.
 - The command menu includes a `PortraitTheme` configuration row.
 - English and Spanish command-menu strings are provided for the shared option rows and AV speed names.
+- Command-window help strings describe speed, AutoVelocity, display, path, alternate, judge, and Rush options.
+- PaneDisplay labels and the halfdouble evaluation icon redirect to `_blank` so inheriting themes have quiet fallback graphics.
 
 ## Change Tracking
 

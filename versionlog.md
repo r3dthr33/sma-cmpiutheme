@@ -2,6 +2,16 @@
 
 All meaningful CMPIU fallback theme changes should be recorded here when the theme is updated.
 
+## v0.0.5
+
+- Added a blank `CodeDetector` command-window mapping and disabled scroll-speed cycling/list shortcuts in CMPIU fallback metrics.
+- Added command-window help strings for speed, AutoVelocity, display, path, alternate, judge, and Rush options in English.
+- Added `5.5X` speed support and compact command-menu option labels for English.
+- Updated Rush options to include an explicit `1.0x` entry that clears `static`, while non-default Rush rates apply `static`.
+- Hid player credit displays on the ranking screen.
+- Added `_blank` redirects for PaneDisplay labels, PaneDisplay over/under graphics, and the halfdouble evaluation icon.
+- Updated `README.md` to describe the expanded shared command-menu, Rush, command-window, and blank fallback graphics behavior.
+
 ## v0.0.4
 
 - Removed `no static` from `RushDefault`, leaving the default Rush state as `1.0xmusic` only.
